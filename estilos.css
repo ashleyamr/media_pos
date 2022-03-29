@@ -1,0 +1,55 @@
+
+/* CSS de border,margin y padding */
+.uno{
+    border-style: solid;
+border-color: lime;
+margin-left: 100px;
+padding-left: 20px;
+}
+.dos{
+border-top: 10px double black;
+border-bottom: 10px double black;
+border-width: 5px;
+margin-right: 50px;
+padding-left: 20px;
+width: 120px;
+height: 90px;
+padding-top: 10px;
+background-color: pink;
+}
+
+
+/* CSS de pseudo-clases */
+   .btn1{
+       color:red;
+   }
+   
+   .btn1:hover{
+       color:black;
+   }
+   
+  
+   
+   /* css de display */
+
+div{
+    width: 516px;
+    height: 50px;
+    background-color: #373A44 ;
+    border-radius: 5px;  
+}
+a:hover{
+    background-color: #19BAAF ;
+    display: inline-block;
+}
+p{
+    color: aqua;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+   
