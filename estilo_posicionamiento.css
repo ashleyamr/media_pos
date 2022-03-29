@@ -1,82 +1,382 @@
-body{
-    background-color: #E5E5E5;
-    }
-    .primero{
-        display: flex;
-        justify-content: space-around;
-        width: 400px;
-        background-color: #EBEBEB;
-        padding-bottom: 50px;
-    }
-    
-    .botones{
-        display: flex; 
-        flex-wrap: wrap;
-        align-content: space-around;
-        justify-content: space-around;
-    }
+@media screen and (min-width:1000px){
 
-
-
-    #verde{
-        background-color: #4EFC4D;
-    }
-    #azul{
-        background-color: #39EFF0;
-    }
-    #amarillo{
-        background-color: #FFFF01;
-    }
-    #gris{
-        color: white;
-        background-color: #333333;
-    }
-
-    .A{
-        height: 138.42px;
-        width: 367.63px;
-        font-weight: bold;
-        font-size: 1em;
-        border-top-left-radius: 10px;
-        border-bottom-right-radius: 10px;
-        border: 0;
-    }
-
-    .segundo{
-        display: flex;
-        justify-content: space-around;
-        height: 900px;
+    body{
         background-color: #EBEBEB;
     }
-    
-    .general{
-        width: 400px;
-        background-color: #EBEBEB;
-        align-content: center;
-        justify-content: space-around;
+    #Verde{
+        background: #4EFC4D;
+        border-color: #4EFC4D;
+        color: #000000;
     }
-
-    hr {
-        background-color: #333333;
-        height: 5px;
-        margin-left: 0%;
-        width: 50%;
-        border-radius: 10px;
-      }
+    #Azul{
+        background: #39EFF0;
+        border-color: #39EFF0;
+        color: #000000;
+    }
+    #Amarillo{
+        background: #FFFF01;
+        border-color: #FFFF01;
+        color: #000000; 
+    }
+    #Negro{
+        background: #333333;
+        border-color: #333333;
+        color: #FFFFFF;      
+    }
+    .Cajas{
+        height: 140px;
+        width: 305px;
+        left: 65px;
+        top: 161px;
+        border-radius: 20px 0px;    
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 19px; 
+        line-height: 23px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    #Logo{
+        height: 28px;
+        width: 234px;
+        left: 139px;
+        top: 72px;
+        border-radius: 0px;
+        margin-right: 43%;
+    }
+    .menu1{
+        visibility:hidden;
+        display: inline-block;
+    }
+    a{
+        height: 23px;
+        width: 63px;
+        left: 902px;
+        top: 74px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 23px;
+        margin-right: 20px;
+    }
     
-    .texto{
-        height: 35vh;
-        flex-direction: column;
-        color: rgb(36, 35, 35);
-        width: 380px;
+    .imagen{  
+        background: url(escritorio.jpeg);
+        width: 1340px;
+        height: 594px;
+        margin-top:20px;
+    }
+    
+    .cuadrotexto{
+        width: 645px;
+        height: 341px;
+        left: 75px;
+        top: 543px;
+        background: lightgray;
         border-radius: 14px;
-        background-color: rgba(196, 196, 196, 0.43);
+        margin-left: 75px;
     }
-    /*
-    @media only screen and (min-width: 600px) {
-        .general{
-            width: 900px;
-        }
-      }
-      */
+    .titulo{
+        left: 5.35%;
+        right: 69.86%;
+        top: 57.71%;
+        bottom: 36.23%;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 51px;
+        line-height: 62px;
+        color: #F0F0F0;
+        margin-bottom: 0px;
+    }
     
+    #barra{
+        height: 3px;
+        width: 84px;
+        left: 77px;
+        top: 693px;
+    
+    }
+    .parrafo{
+        left: 5.35%;
+        right: 50.49%;
+        top: 70.8%;
+        bottom: 14.45%;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+        color: #F0F0F0;    
+    }
+    .menu2{
+        display: inline-block;
+    }
+    .menu{
+        margin-top: 20px;
+        text-align: center;
+    }
+    .botones{
+        text-align: center;
+        margin-top: 20px;
+    }
+    }
+    
+    
+    @media screen and (max-width:1000px) {
+        body{
+            background-color: #EBEBEB;
+        }
+        #Verde{
+            background: #4EFC4D;
+            border-color: #4EFC4D;
+            color: #000000;
+        }
+        #Azul{
+            background: #39EFF0;
+            border-color: #39EFF0;
+            color: #000000;
+        }
+        #Amarillo{
+            background: #FFFF01;
+            border-color: #FFFF01;
+            color: #000000; 
+        }
+        #Negro{
+            background: #333333;
+            border-color: #333333;
+            color: #FFFFFF;      
+        }
+        .Cajas{
+            height: 161px;
+            width: 430px;
+            left: 73px;
+            top: 177px;
+            border-radius: 20px 0px;    
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 19px; 
+            line-height: 23px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+        #Logo{
+            height: 28px;
+            width: 234px;
+            left: 139px;
+            top: 72px;
+            border-radius: 0px;
+            margin-right: 65%;
+        }
+        
+         #home{
+            visibility:hidden;
+        }
+        #nosotros{
+            visibility:hidden;
+        } 
+        #servicios{
+            visibility:hidden;
+        } 
+        #contact{
+            visibility:hidden;
+        }
+        .menubreve{
+         display: inline-block;
+        }
+        
+        .imagen{  
+            background: url(escritorio.jpeg);
+            background-repeat: no-repeat;
+            width: 1340px;
+            height: 594px;
+            margin-top:20px;
+        }
+        
+        .cuadrotrans{
+            height: 299px;
+            width: 624px;
+            left: 73px;
+            top: 770px;
+    
+            border-radius: 14px;
+            background: rgba(196, 196, 196, 0.2);
+            margin-left: 73px;
+        }
+        .titulo{
+            left: 7.13%;
+            right: 20.62%;
+            top: 57.02%;
+            bottom: 36.78%;
+            
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 50px;
+            line-height: 61px;
+            
+            color: #F0F0F0;
+        }
+        
+        #barra{
+            height: 3px;
+            width: 98px;
+            left: 75px;
+            top: 854px;
+            border-radius: 0px;
+      
+        }
+        .parrafo{
+            left: 7.32%;
+            right: 34.47%;
+            top: 67.19%;
+            bottom: 20%;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 19px;
+            line-height: 23px;
+            color: #F0F0F0;    
+        }
+        .menu2{
+            display: inline-block;
+        }
+        .menu{
+            margin-top: 20px;
+            text-align: center;
+        }
+        .botones{
+            text-align: center;
+            margin-top: 20px;
+        }  
+    }
+    
+    
+    @media screen and (max-width:500px) {
+        body{
+            background-color:#EBEBEB;
+        }
+        #Verde{
+            background: #4EFC4D;
+            border-color: #4EFC4D;
+            color: #000000;
+        }
+        #Azul{
+            background: #39EFF0;
+            border-color: #39EFF0;
+            color: #000000;
+        }
+        #Amarillo{
+            background: #FFFF01;
+            border-color: #FFFF01;
+            color: #000000; 
+        }
+        #Negro{
+            background: #333333;
+            border-color: #333333;
+            color: #FFFFFF;      
+        }
+        .Cajas{
+            height: 138px;
+            width: 367px;
+            left: 30px;
+            top: 131px;
+            border-radius: 20px 0px;    
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 15px; 
+            line-height: 23px;
+        }
+        #Logo{
+            height: 28px;
+            width: 234px;
+            left: 139px;
+            top: 72px;
+            border-radius: 0px;
+            margin-right: 35%;
+        }
+        
+        #home{
+            visibility:hidden;
+        }
+        #nosotros{
+            visibility:hidden;
+        } 
+        #servicios{
+            visibility:hidden;
+        } 
+        #contact{
+            visibility:hidden;
+        }
+        .menubreve{
+         display: inline-block;
+        }    
+        .imagen{  
+            background: #EBEBEB;
+            margin-top: 0px;  
+        }    
+        .cuadrotrans{
+            width: 368px;
+            height: 299px;
+            left: 40px;
+            top: 738px;
+            border-radius: 14px;
+            background: rgba(196, 196, 196, 0.43);;
+            margin-left: 35px;
+            margin-top: 0px;
+        }
+        .titulo{
+            left: 11%;
+            right: 10%;
+            top: 81%;
+            bottom: 9%;
+    
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 30px;
+            line-height: 37px;
+    
+            color: #010101;
+            margin-left: 10px;
+    
+        }    
+        #barra{
+            height: 3px;
+            width: 98px;
+            left: 75px;
+            top: 854px;
+            border-radius: 0px;        
+            margin-left: 10px;
+      
+        }
+        .parrafo{
+            left: 11%;
+            right: 8%;
+            top: 90%;
+            bottom: -8%;
+    
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 15px;
+            margin-left: 10px;
+            color: #000000;    
+        }
+        .menu2{
+            display: inline-block;
+        }
+        .menu{
+            margin-top: 20px;
+            text-align: center;
+        }
+        .botones{
+            text-align: center;
+            margin-top: 20px;
+        }
+    }
